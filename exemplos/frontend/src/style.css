@@ -1,0 +1,18 @@
+:root { font-family: system-ui, sans-serif; color: #16283b; background: #f6f7f8; }
+body { margin: 0; }
+main { max-width: 1000px; margin: 56px auto; padding: 24px; }
+h1 { font-size: 56px; margin: 0; letter-spacing: -2px; }
+h2 { font-size: 25px; margin: 10px 0; }
+.eyebrow, .kind { color: #4d5e72; font-weight: 600; }
+.team { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 22px; margin-top: 34px; }
+article { border-top: 4px solid #d63f48; padding: 18px; background: white; }
+button { border: 0; border-radius: 5px; padding: 12px 16px; color: white; background: #263e57; font: inherit; cursor: pointer; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible { outline: 3px solid #e39e19; outline-offset: 3px; }
+footer { margin-top: 42px; font-size: 14px; color: #657387; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { display: block; font-size: 14px; font-weight: 600; margin-top: 12px; }
+input { box-sizing: border-box; width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #a6b1bd; border-radius: 4px; font: inherit; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.actions button { padding: 10px 12px; }
+.feedback { min-height: 20px; font-size: 14px; }
